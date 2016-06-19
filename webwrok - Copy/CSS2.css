@@ -1,0 +1,180 @@
+html { background: #FFFFFF; }
+body { background: #FFFFFF; font-family: Arial, Verdana, "sans-serif"; font-size: small; margin: 0; overflow-x: hidden; overflow-y: scroll; padding: 0; }
+a { color: #212121; text-decoration: none; }
+a:HOVER, a:ACTIVE { text-decoration: underline; }
+.clearer { clear: both; }
+h4 { font-weight: bold; margin-bottom: 7px; }
+
+table { width: 46px; height: 46px; }
+
+/** HEADER
+---------------------------------- **/
+.header { background: #FFFFFF; }
+.logo { background: #FFFFFF url(http://www.mq.edu.au/sustainability/greencampusguide/_img/logo.jpg) no-repeat left top; float: left; display: block; margin: 12px 0 12px 21px; width: 284px; height: 52px; }
+.logo a { display: block; width: 125px; height: 55px; }
+.logo a span { display: none; }
+
+.menu { background: none; position: absolute; right: 20px; top: 15px; width: 252px; height: 83px; z-index: 100; }
+.menu li { display: inline; }
+.menu li a { display: inline; float: left; margin-right: 0px; overflow: hidden; padding-top: 83px; width: 62px; height: 0; }
+.menu li.menu-campus a { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/menu.png) 0 0 no-repeat; display: block; width: 62px; }
+.menu li.menu-campus a:HOVER, .menu { background-position: 0 -83px; }
+.menu li.menu-office a { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/menu.png) -62px 0 no-repeat; display: block; width: 62px; }
+.menu li.menu-office a:HOVER, .menu { background-position: -62px -83px; }
+.menu li.menu-kitchen a { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/menu.png) -124px 0 no-repeat; display: block; width: 62px; }
+.menu li.menu-kitchen a:HOVER, .menu { background-position: -124px -83px; }
+.menu li.menu-tip a { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/menu.png) -186px 0 no-repeat; display: block; width: 62px; }
+.menu li.menu-tip a:HOVER, .menu { background-position: -186px -83px; }
+
+/** CONTAINER
+---------------------------------- **/
+.container { position: relative; }
+.campus .inner, .office .inner, .kitchen .inner, .tip .inner { margin: auto; position: relative; width: 985px; }
+.previousButton { left: 0; position: absolute; top: 0; }
+.nextButton { position: absolute; right: 0; top: 0; }
+
+/** BUTTONS
+---------------------------------- **/
+.previousButton { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/btn-arrows.png) 0 0 no-repeat; display: block; margin-top: 264px; outline: none; width: 46px; height: 46px; text-indent: -999999px; }
+.previousButton:HOVER { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/btn-arrows.png) 0 46px; }
+.nextButton { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/btn-arrows.png) 46px 0; display: block; margin-top: 264px; outline: none; width: 46px; height: 46px; text-indent: -999999px; }
+.nextButton:HOVER { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/btn-arrows.png) 46px 46px; }
+
+/** CAMPUS
+---------------------------------- **/
+.campus { background: #BEE1D9; float: left; height: 662px; }
+.campus .inner { background: #BEE1D9 url(01.jpg) top center no-repeat; height: 662px; }
+/*
+---------------------------------- 
+---------------------------------- 
+---------------------------------- 
+
+*/
+.campus .inner .title { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/titles.png) top left no-repeat; width: 139px; height: 139px; left: 0; position: absolute; top: 19px; }
+.welcome-circle { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/bg-welcome-circle.png) top center; color: #FFFFFF; left: 50%; margin: auto; margin-left: -205px; padding: 70px 60px 0 60px; position: absolute; top: 60px; text-align: center; width: 291px; height: 341px; }
+.welcome-circle h3 { font-size: 500%; font-weight: bold; margin-bottom: 20px; }
+.welcome-circle p { font-size: 150%; margin-bottom: 40px; }
+
+.welcome-menu { left: 50%; margin: auto; margin-left: -255px; position: absolute; top: 480px; width: 510px; }
+.welcome-menu li { display: inline; }
+.welcome-menu li a { display: inline; float: left; margin-right: 8px; overflow: hidden; padding-top: 120px; width: 120px; height: 0; }
+.welcome-menu li.last a { margin-right: 0; }
+.welcome-menu li.welcome-menu-campus a { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/welcome-menu.png) 0 0 no-repeat; display: block; width: 120px; }
+.welcome-menu li.welcome-menu-campus a:HOVER { background-position: 0 -120px; }
+.welcome-menu li.welcome-menu-office a { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/welcome-menu.png) -128px 0 no-repeat; display: block; width: 120px; }
+.welcome-menu li.welcome-menu-office a:HOVER { background-position: -128px -120px; }
+.welcome-menu li.welcome-menu-kitchen a { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/welcome-menu.png) -258px 0 no-repeat; display: block; width: 120px; }
+.welcome-menu li.welcome-menu-kitchen a:HOVER { background-position: -258px -120px; }
+.welcome-menu li.welcome-menu-tip a { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/welcome-menu.png) -390px 0 no-repeat; display: block; width: 120px; }
+.welcome-menu li.welcome-menu-tip a:HOVER { background-position: -390px -120px; }
+
+.start { background: none; }
+.start { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/btn-start.png) top right no-repeat; color: #FFFFFF; font-size: 130%; padding-right: 36px; padding-top: 5px; padding-bottom: 5px; height: 18px; }
+.start:HOVER { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/btn-start.png) bottom right no-repeat; text-decoration: none; }
+
+	/* LABELS */
+	.campus-labels a { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/bubbles.png) 0 0 no-repeat; color: #FFFFFF; display: block; font-size: 8px; padding: 0; position: absolute; text-align: center; text-decoration: none; width: 46px; height: 52px; }
+	.campus-labels a:HOVER { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/bubbles-over.png) 0 0 no-repeat; }
+	#campusLabel1 { left: 399px; top: 26px; }
+	#campusLabel2 { left: 631px; top: 32px; }
+	#campusLabel3 { left: 348px; top: 40px; }
+	#campusLabel4 { left: 453px; top: 88px; }
+	#campusLabel5 { left: 232px; top: 117px; }
+	#campusLabel6 { left: 703px; top: 161px; }
+	#campusLabel7 { background-position: -46px 0; left: 355px; top: 206px; } /* Office */
+	#campusLabel7:HOVER { background-position: 0 0; }
+	#campusLabel8 { background-position: -92px 0; left: 293px; top: 221px; } /* Kitchen */
+	#campusLabel8:HOVER { background-position: 0 0; }
+	#campusLabel9 { left: 792px; top: 276px; }
+	#campusLabel10 { left: 571px; top: 286px; }
+	#campusLabel11 { left: 175px; top: 305px; }
+	#campusLabel12 { left: 261px; top: 301px; }
+	#campusLabel13 { left: 340px; top: 366px; }
+	#campusLabel14 { left: 405px; top: 367px; }
+	#campusLabel15 { left: 449px; top: 430px; }
+
+/** OFFICE
+---------------------------------- **/
+.office { background: #FFFFFF; float: left; height: 662px; }
+.office .inner { background: #FFFFFF url(http://www.mq.edu.au/sustainability/greencampusguide/_img/office.jpg) top center no-repeat; height: 636px; }
+.office .inner .title { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/titles.png) -139px 0 no-repeat; width: 139px; height: 139px; left: 0; position: absolute; top: 19px; }
+	/* LABELS */
+	.office-labels a { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/bubbles.png) -46px 0 no-repeat; color: #FFFFFF; display: block; font-size: 8px; padding: 0; position: absolute; text-align: center; text-decoration: none; width: 46px; height: 52px; }
+	.office-labels a:HOVER { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/bubbles-over.png) 0 0 no-repeat; }
+	#officeLabel1 { background-position: 0 0; left: 496px; top: 91px; } /* Campus */
+	#officeLabel1:HOVER { background-position: 0 0; }
+	#officeLabel2 { left: 389px; top: 129px; }
+	#officeLabel3 { left: 246px; top: 170px; }
+	#officeLabel4 { left: 546px; top: 174px; }
+	#officeLabel5 { left: 476px; top: 178px; }
+	#officeLabel6 { left: 294px; top: 206px; }
+	#officeLabel7 { left: 656px; top: 246px; }
+	#officeLabel8 { left: 242px; top: 260px; }
+	#officeLabel9 { background-position: -92px 0; left: 185px; top: 264px; } /* Kitchen */
+	#officeLabel9:HOVER { background-position: 0 0; }
+	#officeLabel10 { left: 376px; top: 287px; }
+	#officeLabel11 { left: 422px; top: 305px; }
+	#officeLabel12 { left: 781px; top: 320px; }
+	#officeLabel13 { left: 730px; top: 334px; }
+	#officeLabel14 { left: 295px; top: 382px; }
+
+
+
+/** TIP
+---------------------------------- **/
+.tip { background: #C1D7E2; color: #FFFFFF; float: left; height: 662px; position: relative; }
+.tip table, .tip tr, .tip td { width: 227px; height: 173px; }
+.tip .inner { background: #C1D7E2; }
+.tip .inner .title { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/titles.png) -139px -139px no-repeat; width: 139px; height: 139px; left: 0; position: absolute; top: 19px; }
+.top-tips div.tip1, .top-tips div.tip2, .btm-tips div.tip3, .btm-tips div.tip4, .btm-tips div.tip5 { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/tip.png) 0 0 no-repeat; color: #FFFFFF; cursor: pointer; display: block; padding: 52px 21px 0; width: 235px; height: 225px; }
+.top-tips div p, .btm-tips div p { margin-bottom: 7px; }
+.top-tips { background: #C1D7E2; margin: 68px auto 0; position: relative; width: 565px; }
+.top-tips div { float: left; margin-right: 8px; text-align: center; }
+.top-tips div.last { margin-right: 0; }
+.btm-tips { margin: -48px auto 0; position: relative; text-align: center; width: 848px; }
+.btm-tips div { float: left; margin-right: 8px; }
+.btm-tips div.last { margin-right: 0; }
+
+/** ABOUT BOX
+---------------------------------- **/
+.about-box { background: #666666; padding: 30px; position: relative; text-align: left; width: 547px; text-overflow: ellipsis; }
+.about-box { -moz-border-radius: 5px; border-radius: 5px; } 
+.about-box { 
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    -moz-opacity:0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+} 
+/*.about-box { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/bg-facebox-generic.png) 0 0 no-repeat; padding: 30px; position: relative; text-align: left; width: 547px; height: 195px; }*/
+#about-close { position: absolute; right: -50px; top: -63px; }
+
+/** REFERENCE BOX
+---------------------------------- **/
+
+.reference-box { background: #666666; padding: 30px; position: relative; text-align: left; width: 547px; text-overflow: ellipsis; }
+.reference-box { -moz-border-radius: 5px; border-radius: 5px; }
+.reference-box { 
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    -moz-opacity:0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+} 
+/*.reference-box { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/bg-facebox-generic.png) 0 0 no-repeat; padding: 30px; position: relative; text-align: left; width: 547px; height: 195px; }*/
+#about-close { position: absolute; right: -50px; top: -63px; }
+
+/** FOOTER
+---------------------------------- **/
+.footer { background: #FFFFFF; clear: both; width: 100%; }
+.footer p { display: inline; float: left; font-size: 80%; padding: 12px 0 12px 19px; }
+.footer p a.nota { color: #909090; text-decoration: underline; }
+.footer p a.nota:HOVER { text-decoration: none; } 
+.footer .twitter, .footer .facebook { float: right; padding: 12px 0; }
+
+a.link-reference { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/icon-reference.jpg) 0 0 no-repeat; padding: 0px 0 3px 15px; }
+a.about { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/icon-magnify.jpg) 0 0 no-repeat; padding: 0px 0 3px 15px; }
+
+.footer a.about { margin-right: 19px; }
+.copyright { color: #909090; display: block; padding-top: 7px; }
+.socialmedia { float: right; text-align: right; width: 500px; }
