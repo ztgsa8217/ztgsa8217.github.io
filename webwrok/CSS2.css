@@ -95,8 +95,8 @@ table { width: 46px; height: 46px; }
 
 /** OFFICE
 ---------------------------------- **/
-.office { background: #E4D8C4; float: left; height: 662px; }
-.office .inner { background: #E4D8C4 url(http://www.mq.edu.au/sustainability/greencampusguide/_img/office.jpg) top center no-repeat; height: 636px; }
+.office { background: #FFFFFF; float: left; height: 662px; }
+.office .inner { background: #FFFFFF url(http://www.mq.edu.au/sustainability/greencampusguide/_img/office.jpg) top center no-repeat; height: 636px; }
 .office .inner .title { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/titles.png) -139px 0 no-repeat; width: 139px; height: 139px; left: 0; position: absolute; top: 19px; }
 	/* LABELS */
 	.office-labels a { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/bubbles.png) -46px 0 no-repeat; color: #FFFFFF; display: block; font-size: 8px; padding: 0; position: absolute; text-align: center; text-decoration: none; width: 46px; height: 52px; }
@@ -118,28 +118,6 @@ table { width: 46px; height: 46px; }
 	#officeLabel13 { left: 730px; top: 334px; }
 	#officeLabel14 { left: 295px; top: 382px; }
 
-/** KITCHEN
----------------------------------- **/
-.kitchen { background: #D9E4C4; float: left; height: 662px; }
-.kitchen .inner { background: #D9E4C4 url(http://www.mq.edu.au/sustainability/greencampusguide/_img/kitchen.jpg) top center no-repeat; height: 636px; }
-.kitchen .inner .title { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/titles.png) 0 -139px no-repeat; width: 139px; height: 139px; left: 0; position: absolute; top: 19px; }
-	/* LABELS */
-	.kitchen-labels a { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/bubbles.png) -92px 0 no-repeat; color: #FFFFFF; display: block; font-size: 8px; padding: 0; position: absolute; text-align: center; text-decoration: none; width: 46px; height: 52px; }
-	.kitchen-labels a:HOVER { background: url(http://www.mq.edu.au/sustainability/greencampusguide/_img/bubbles-over.png) 0 0 no-repeat; }
-	#kitchenLabel1 { left: 399px; top: 88px; }
-	#kitchenLabel2 { left: 575px; top: 124px; }
-	#kitchenLabel3 { left: 198px; top: 165px; }
-	#kitchenLabel4 { background-position: -46px 0; left: 253px; top: 198px; } /* Office */	
-	#kitchenLabel4:HOVER { background-position: 0 0; }
-	#kitchenLabel5 { left: 321px; top: 204px; }
-	#kitchenLabel6 { left: 726px; top: 226px; }
-	#kitchenLabel7 { left: 674px; top: 256px; }
-	#kitchenLabel8 { left: 626px; top: 278px; }
-	#kitchenLabel9 { left: 748px; top: 313px; }
-	#kitchenLabel10 { left: 452px; top: 333px; }
-	#kitchenLabel11 { left: 398px; top: 349px; }
-	#kitchenLabel12 { left: 645px; top: 386px; }	
-	#kitchenLabel13 { left: 367px; top: 416px; }
 
 
 /** TIP
